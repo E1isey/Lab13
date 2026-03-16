@@ -1,0 +1,8 @@
+=== terminal server ===
+server is listening on 9090
+new client ('127.0.0.1', 56696)
+received hello timeout
+client left
+
+=== terminal client ===
+message (exit to quit): echo hello timeout

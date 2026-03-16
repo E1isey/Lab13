@@ -1,0 +1,12 @@
+=== terminal server ===
+server is listening
+new client accepted ('127.0.0.1', 44268)
+received hello
+received world
+received exit
+client left, waiting for next
+
+=== terminal client ===
+message (exit to quit): echo hello
+message (exit to quit): echo world
+message (exit to quit):

@@ -1,0 +1,7 @@
+=== terminal server ===
+server is listening
+new client accepted ('127.0.0.1', 53872)
+received data hello
+
+=== terminal client ===
+echo hello

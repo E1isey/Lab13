@@ -1,0 +1,14 @@
+=== pickle: terminal server ===
+pickle server is listening on 9090
+new client accepted ('127.0.0.1', 39792)
+received object {'name': 'alice', 'n': 42}
+
+=== pickle: terminal client ===
+echo {'name': 'alice', 'n': 42}
+
+=== udp: terminal server ===
+udp server is listening on 9091
+received hello udp from ('127.0.0.1', 56823)
+
+=== udp: terminal client ===
+echo hello udp from ('127.0.0.1', 9091)

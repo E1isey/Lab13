@@ -1,0 +1,20 @@
+=== terminal server ===
+bank server is listening on 9092
+new client ('127.0.0.1', 39694)
+request {'action': 'balance'}
+reply {'ok': True, 'balance': 0}
+new client ('127.0.0.1', 33036)
+request {'action': 'deposit', 'amount': 100}
+reply {'ok': True, 'balance': 100}
+new client ('127.0.0.1', 33038)
+request {'action': 'withdraw', 'amount': 30}
+reply {'ok': True, 'balance': 70}
+
+=== terminal client: balance ===
+Action (balance / deposit / withdraw): Balance: 0
+
+=== terminal client: deposit ===
+Action (balance / deposit / withdraw): Amount: Balance: 100
+
+=== terminal client: withdraw ===
+Action (balance / deposit / withdraw): Amount: Balance: 70
